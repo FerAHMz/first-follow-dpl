@@ -1,0 +1,8 @@
++ * ( ) id
+E Ep T Tp F
+E
+E -> T Ep
+Ep -> + T Ep | epsilon
+T -> F Tp
+Tp -> * F Tp | epsilon
+F -> ( E ) | id
